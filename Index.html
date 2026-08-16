@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Danish Web Studio</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b1120;
+      color: white;
+    }
+
+    header {
+      padding: 25px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h2 {
+      color: #38bdf8;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: linear-gradient(135deg, #0b1120, #172554);
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #cbd5e1;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #38bdf8;
+      color: #07111f;
+      padding: 14px 28px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 70px 8%;
+      text-align: center;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: #111827;
+      padding: 30px;
+      border-radius: 15px;
+    }
+
+    .card h3 {
+      margin-bottom: 15px;
+      color: #38bdf8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background: #050914;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h2>Danish Web Studio</h2>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Build Your Digital Future</h1>
+    <p>Modern, fast and professional websites for your business.</p>
+    <a class="btn" href="#contact">Get Started</a>
+  </section>
+
+  <section id="about">
+    <h2>About Danish Web Studio</h2>
+    <p style="margin-top:20px;">
+      We build modern and professional websites that help businesses grow online.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+
+    <div class="services">
+      <div class="card">
+        <h3>Web Design</h3>
+        <p>Beautiful and modern website designs.</p>
+      </div>
+
+      <div class="card">
+        <h3>Web Development</h3>
+        <p>Fast and responsive websites.</p>
+      </div>
+
+      <div class="card">
+        <h3>Business Websites</h3>
+        <p>Professional websites for businesses.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p style="margin-top:20px;">
+      Ready to build your website?
+    </p>
+    <br>
+    <a class="btn" href="mailto:danishwebstudio@gmail.com">
+      Contact Now
+    </a>
+  </section>
+
+  <footer>
+    <h3>Danish Web Studio</h3>
+    <p style="margin-top:10px;">
+      We Build Modern Websites
+    </p>
+    <p style="margin-top:20px;">
+      © 2026 Danish Web Studio. All Rights Reserved.
+    </p>
+  </footer>
+
+</body>
+  </html>
