@@ -1,222 +1,452 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Danish Web Studio</title><title>Danish Web Studio | Official</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
-*{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
+  <title>New Looks Beauty Salon & Academy | Loni, Ghaziabad</title>
 
-body{
-  font-family:Arial,sans-serif;
-  background:#07111f;
-  color:white;
-  line-height:1.6;
-}
+  <meta name="description"
+        content="New Looks Beauty Salon & Academy in Khanna Nagar, Loni, Ghaziabad. Bridal makeup, airbrush makeup, beauty services and professional makeup training.">
 
-header{
-  position:sticky;
-  top:0;
-  z-index:1000;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  padding:18px 7%;
-  background:rgba(7,17,31,.95);
-  border-bottom:1px solid #1e293b;
-}
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
 
-.logo{
-  color:#38bdf8;
-  font-size:24px;
-  font-weight:bold;
-}
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff8fb;
+      color: #333;
+      line-height: 1.6;
+    }
 
-nav a{
-  color:white;
-  text-decoration:none;
-  margin-left:20px;
-}
+    header {
+      background: linear-gradient(135deg, #7b1645, #c94f7c);
+      color: white;
+      padding: 18px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
 
-nav a:hover{color:#38bdf8}
+    .logo {
+      font-size: 21px;
+      font-weight: bold;
+    }
 
-.hero{
-  min-height:90vh;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  text-align:center;
-  padding:60px 20px;
-  background:linear-gradient(135deg,#07111f,#172554);
-}
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 18px;
+      font-size: 14px;
+    }
 
-.hero h1{
-  font-size:52px;
-  margin-bottom:20px;
-}
+    .hero {
+      min-height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 60px 7%;
+      background:
+        radial-gradient(circle at top right, #ffd5e4, transparent 35%),
+        linear-gradient(135deg, #fff0f6, #ffffff);
+    }
 
-.hero h1 span{color:#38bdf8}
+    .hero-content {
+      max-width: 800px;
+    }
 
-.hero p{
-  max-width:650px;
-  margin:0 auto 30px;
-  color:#cbd5e1;
-  font-size:19px;
-}
+    .hero h1 {
+      font-size: 48px;
+      color: #7b1645;
+      margin-bottom: 18px;
+    }
 
-.btn{
-  display:inline-block;
-  padding:14px 28px;
-  background:#38bdf8;
-  color:#06101d;
-  text-decoration:none;
-  border-radius:8px;
-  font-weight:bold;
-}
+    .hero h2 {
+      font-size: 25px;
+      color: #c94f7c;
+      margin-bottom: 15px;
+    }
 
-.btn:hover{background:#7dd3fc}
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 28px;
+      color: #555;
+    }
 
-section{
-  padding:80px 7%;
-  text-align:center;
-}
+    .rating {
+      display: inline-block;
+      background: white;
+      padding: 10px 18px;
+      border-radius: 30px;
+      box-shadow: 0 5px 20px rgba(0,0,0,.08);
+      margin-bottom: 25px;
+      font-weight: bold;
+    }
 
-section h2{
-  font-size:34px;
-  margin-bottom:15px;
-}
+    .btn {
+      display: inline-block;
+      padding: 14px 24px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 6px;
+      transition: .3s;
+    }
 
-.about-text{
-  max-width:700px;
-  margin:auto;
-  color:#cbd5e1;
-}
+    .btn-primary {
+      background: #7b1645;
+      color: white;
+    }
 
-.services{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-  gap:25px;
-  margin-top:35px;
-}
+    .btn-whatsapp {
+      background: #25d366;
+      color: white;
+    }
 
-.card{
-  background:#111827;
-  padding:35px 25px;
-  border-radius:15px;
-  border:1px solid #1e293b;
-}
+    .btn:hover {
+      transform: translateY(-3px);
+    }
 
-.card:hover{
-  transform:translateY(-5px);
-  transition:.3s;
-  border-color:#38bdf8;
-}
+    section {
+      padding: 70px 7%;
+    }
 
-.card h3{
-  color:#38bdf8;
-  margin-bottom:12px;
-}
+    .section-title {
+      text-align: center;
+      color: #7b1645;
+      font-size: 34px;
+      margin-bottom: 40px;
+    }
 
-.card p{color:#cbd5e1}
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
 
-.contact{
-  background:#0f172a;
-}
+    .card {
+      background: white;
+      padding: 28px 20px;
+      text-align: center;
+      border-radius: 18px;
+      box-shadow: 0 8px 25px rgba(0,0,0,.07);
+      transition: .3s;
+    }
 
-footer{
-  text-align:center;
-  padding:35px 20px;
-  background:#030712;
-  color:#94a3b8;
-}
+    .card:hover {
+      transform: translateY(-7px);
+    }
 
-@media(max-width:700px){
-  header{flex-direction:column;gap:12px}
-  nav a{margin:0 7px}
-  .hero h1{font-size:38px}
-}
-</style>
+    .card .icon {
+      font-size: 42px;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      color: #7b1645;
+      margin-bottom: 10px;
+    }
+
+    .academy {
+      background: #fff0f6;
+    }
+
+    .academy-box {
+      max-width: 850px;
+      margin: auto;
+      background: white;
+      padding: 35px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 8px 25px rgba(0,0,0,.06);
+    }
+
+    .academy-box ul {
+      list-style: none;
+      margin: 25px 0;
+    }
+
+    .academy-box li {
+      margin: 12px 0;
+    }
+
+    .reviews {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .review {
+      background: white;
+      padding: 25px;
+      border-radius: 18px;
+      box-shadow: 0 7px 20px rgba(0,0,0,.06);
+    }
+
+    .stars {
+      color: #f5a623;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .contact {
+      background: #7b1645;
+      color: white;
+      text-align: center;
+    }
+
+    .contact .section-title {
+      color: white;
+    }
+
+    .contact-info {
+      max-width: 700px;
+      margin: auto;
+      font-size: 17px;
+    }
+
+    .contact-info p {
+      margin: 12px 0;
+    }
+
+    footer {
+      background: #4c0c2b;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 700px) {
+      header {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      nav a {
+        margin: 0 6px;
+        font-size: 12px;
+      }
+
+      .hero h1 {
+        font-size: 35px;
+      }
+
+      .hero h2 {
+        font-size: 21px;
+      }
+
+      .hero p {
+        font-size: 16px;
+      }
+
+      section {
+        padding: 55px 5%;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
 <header>
-  <div class="logo">Danish Web Studio</div>
+  <div class="logo">New Looks Beauty Salon</div>
 
   <nav>
     <a href="#home">Home</a>
-    <a href="#about">About</a>
     <a href="#services">Services</a>
+    <a href="#academy">Academy</a>
+    <a href="#reviews">Reviews</a>
     <a href="#contact">Contact</a>
   </nav>
 </header>
 
 <section class="hero" id="home">
-  <div>
-    <h1>Build Your <span>Digital Future</span></h1>
+  <div class="hero-content">
+
+    <div class="rating">
+      ⭐ 4.9/5 · 50 Google Reviews
+    </div>
+
+    <h1>New Looks Beauty Salon & Academy</h1>
+
+    <h2>Beauty • Makeup • Bridal • Professional Training</h2>
+
     <p>
-      Modern, fast and professional websites that help businesses
-      build a strong presence online.
+      Enhance your natural beauty with professional makeup and beauty
+      services in Khanna Nagar, Loni, Ghaziabad.
     </p>
-    <a class="btn" href="#contact">Get Started</a>
+
+    <a class="btn btn-primary" href="tel:09910134899">
+      📞 Call Now
+    </a>
+
+    <a class="btn btn-whatsapp"
+       href="https://wa.me/919910134899"
+       target="_blank">
+      💬 WhatsApp
+    </a>
+
   </div>
 </section>
 
-<section id="about">
-  <h2>About Danish Web Studio</h2>
-  <p class="about-text">
-    We create modern and professional websites for businesses,
-    creators and individuals. Our goal is to make websites that
-    look beautiful, work smoothly and help you grow online.
-  </p>
-</section>
-
 <section id="services">
-  <h2>Our Services</h2>
+
+  <h2 class="section-title">Our Services</h2>
 
   <div class="services">
 
     <div class="card">
-      <h3>Web Design</h3>
-      <p>Modern and attractive designs made for your brand.</p>
+      <div class="icon">👰</div>
+      <h3>Bridal Makeup</h3>
+      <p>Beautiful bridal makeup for your special day.</p>
     </div>
 
     <div class="card">
-      <h3>Web Development</h3>
-      <p>Fast, responsive and mobile-friendly websites.</p>
+      <div class="icon">✨</div>
+      <h3>Airbrush Makeup</h3>
+      <p>Professional airbrush makeup for a flawless look.</p>
     </div>
 
     <div class="card">
-      <h3>Business Websites</h3>
-      <p>Professional websites designed to help businesses grow.</p>
+      <div class="icon">💄</div>
+      <h3>Professional Makeup</h3>
+      <p>Makeup services for parties, events and special occasions.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">👁️</div>
+      <h3>Eyelash Enhancements</h3>
+      <p>Enhance your eyes with professional lash services.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🌸</div>
+      <h3>Brow Shaping</h3>
+      <p>Professional eyebrow shaping for a beautiful look.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🎨</div>
+      <h3>Body Art</h3>
+      <p>Creative body art services for special occasions.</p>
     </div>
 
   </div>
 </section>
 
-<section class="contact" id="contact">
-  <h2>Let's Work Together</h2>
-  <p style="margin:15px 0 25px;color:#cbd5e1;">
-    Ready to build your website?
-  </p>
+<section class="academy" id="academy">
 
-  <a class="btn" href="mailto:danishwebstudio@gmail.com">
-    Contact Us
-  </a>
+  <h2 class="section-title">Beauty Academy</h2>
+
+  <div class="academy-box">
+
+    <h3>Learn Professional Beauty & Makeup Skills</h3>
+
+    <p>
+      Build your skills with professional beauty and makeup training
+      at New Looks Beauty Salon & Academy.
+    </p>
+
+    <ul>
+      <li>💄 Makeup Techniques</li>
+      <li>👰 Bridal Makeup Training</li>
+      <li>✨ Beauty & Styling Skills</li>
+      <li>🎓 Professional Training</li>
+    </ul>
+
+    <a class="btn btn-whatsapp"
+       href="https://wa.me/919910134899?text=Hello%20New%20Looks%20Beauty%20Salon%20%26%20Academy%2C%20I%20want%20to%20know%20about%20your%20courses."
+       target="_blank">
+      🎓 Enquire About Courses
+    </a>
+
+  </div>
+
 </section>
-  
+
+<section id="reviews">
+
+  <h2 class="section-title">What Customers Say</h2>
+
+  <div class="reviews">
+
+    <div class="review">
+      <div class="stars">★★★★★</div>
+      <p>
+        "Experience amazing 😍 love it. Really professional makeup artist.
+        Service best."
+      </p>
+    </div>
+
+    <div class="review">
+      <div class="stars">★★★★★</div>
+      <p>
+        "There was a great experience in this salon, best work in affordable price."
+      </p>
+    </div>
+
+    <div class="review">
+      <div class="stars">★★★★★</div>
+      <p>
+        "Really nice work and facility are too good."
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="contact" id="contact">
+
+  <h2 class="section-title">Visit New Looks</h2>
+
+  <div class="contact-info">
+
+    <p>📍 Gate No. 2, Near Dhannu Raam, Khanna Nagar, Loni, Ghaziabad, Uttar Pradesh 201102</p>
+
+    <p>📞 099101 34899</p>
+
+    <p>⭐ 4.9 Rating · 50 Reviews</p>
+
+    <br>
+
+    <a class="btn btn-whatsapp"
+       href="https://wa.me/919910134899?text=Hello%20New%20Looks%20Beauty%20Salon%20%26%20Academy"
+       target="_blank">
+      💬 Chat on WhatsApp
+    </a>
+
+    <a class="btn btn-primary"
+       href="tel:09910134899">
+      📞 Call Salon
+    </a>
+
+    <br><br>
+
+    <a class="btn"
+       style="background:white;color:#7b1645;"
+       href="https://www.google.com/maps/search/?api=1&query=New+Looks+Beauty+Salon+%26+Academy+Khanna+Nagar+Loni+Ghaziabad"
+       target="_blank">
+      📍 Get Directions
+    </a>
+
+  </div>
+
+</section>
 
 <footer>
-  <h3>Danish Web Studio</h3>
-  <p>We Build Modern Websites</p>
-  <p style="margin-top:15px;">© 2026 Danish Web Studio. All Rights Reserved.</p>
-</footer><a href="https://api.whatsapp.com/send?phone=918750421596" target="_blank"
-style="position:fixed;bottom:20px;right:20px;background:#25D366;color:white;padding:15px 20px;border-radius:50px;text-decoration:none;font-weight:bold;z-index:9999;">
-💬 WhatsApp
-</a>
+  © 2026 New Looks Beauty Salon & Academy · All Rights Reserved
+</footer>
 
 </body>
-</html>
-<!-- Website update -->
+      </html>
